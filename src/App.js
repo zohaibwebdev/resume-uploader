@@ -113,7 +113,7 @@ const handleSubmit = (e) => {
               <FormGroup row name='pjl'>
                     <FormControlLabel control={<Checkbox />} label='Bahawalpur' value='bahawalpur' onChange={(e)=> {getPjl(e)}}/>
                   <FormControlLabel control={<Checkbox />} label='Lahore' value='lahore' onChange={(e)=> {getPjl(e)}} />
-                  <FormControlLabel control={<Checkbox />} label='Karachi' value='karachi' oonChange={(e)=> {getPjl(e)}} />
+                  <FormControlLabel control={<Checkbox />} label='Karachi' value='karachi' onChange={(e)=> {getPjl(e)}} />
                   <FormControlLabel control={<Checkbox />} label='Islamabad' value='islamabad' onChange={(e)=> {getPjl(e)}} />
               </FormGroup> 
             </FormControl>
